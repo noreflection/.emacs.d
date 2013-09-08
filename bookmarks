@@ -1,0 +1,30 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("Haskell"
+ (filename . "d:/Haskell/")
+ (front-context-string . "ProjStep.ede\n  -")
+ (rear-context-string . "263 2013-01-16  ")
+ (position . 430))
+("Desktop"
+ (filename . "c:/Users/nshapova/Desktop/")
+ (front-context-string . "desktop.ini\n  -r")
+ (rear-context-string . "282 07-05 13:12 ")
+ (position . 749))
+("Desctop"
+ (filename . "c:/Users/nshapova/Desktop/")
+ (front-context-string . "desktop.ini\n  -r")
+ (rear-context-string . "282 07-05 13:12 ")
+ (position . 749))
+("i"
+ (filename . "~/.emacs.d/init.el")
+ (front-context-string . "il)\n(custom-set-")
+ (rear-context-string . "gion 'disabled n")
+ (position . 1034))
+("new.hs"
+ (filename . "c:/Users/nshapova/Desktop/Haskell/new.hs")
+ (front-context-string . "module Examples ")
+ (rear-context-string)
+ (position . 1))
+)
