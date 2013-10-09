@@ -1,1 +1,26 @@
-text text
+Navigation:
+C-n - down
+C-p - up
+
+C-f - forward
+C-b - back
+ 
+
+Buffers:
+C-x+LEFT\RIGHT - switch buffer
+
+
+Windows:
+C-x o - Switch to another window
+C-M-v - Scroll the next window (scroll-other-window).
+M-x  - compare-windows (Find next place where the text in the selected window does not match the text in the next window.)
+
+
+Booksmarks:
+C-x r m ¡V set a bookmark at the current location (e.g. in a file)
+C-x r b ¡V jump to a bookmark
+C-x r l ¡V list your bookmarks
+M-x bookmark-delete¡¦ ¡V delete a bookmark by name
+
+Yank/Yeld:
+C-y - yank text
