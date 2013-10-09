@@ -1,5 +1,5 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-
+;;(require "~/.emacs.d/elpa/git-20130915.932/git.el")
 
 ;;;;;; LISP OPTIONS ;;;;;;
 ;;SLIME
@@ -38,7 +38,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(cua-mode t nil (cua-base))
- '(custom-enabled-themes (quote (anti-zenburn)))
+ '(custom-enabled-themes (quote (zenburn)))
  '(custom-safe-themes (quote ("5a00b47220283c8686c133777ccde73be5c282958d8f6d663c1355fae602dbe1" "7a3c66e95ee3bc2a2e2ea14e0c8a0f30de746c42bc0bf2a097661fb0f3474527" default)))
  '(ede-project-directories (quote ("c:/Users/nshapova/Desktop/Haskell")))
  '(scroll-bar-mode nil)
