@@ -1,0 +1,51 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Oct 10 00:34:15 2013
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist '((48 . "~/Application Data/")))
+(setq file-name-history '("~" "~/Application Data/" "~"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  nil
+  "Nikita"
+  'dired-mode
+  nil
+  418
+  '(nil nil)
+  t
+  '("c:/Users/Nikita/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  ".emacs.d"
+  'dired-mode
+  nil
+  272
+  '(nil nil)
+  t
+  '("c:/Users/Nikita/.emacs.d/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "Application Data"
+  'dired-mode
+  nil
+  37
+  '(nil nil)
+  t
+  '("c:/Users/Nikita/Application Data/")
+  nil)
+
