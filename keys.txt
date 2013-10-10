@@ -22,5 +22,12 @@ C-x r b ¡V jump to a bookmark
 C-x r l ¡V list your bookmarks
 M-x bookmark-delete¡¦ ¡V delete a bookmark by name
 
-Yank/Yeld:
+Killing/Yeld:
+
+C-w - kill(cut or 'kill-ring') 
+M-w - copy ('kill-ring-safe')
+
 C-y - yank text
+
+
+C-y - yank textsasasasas

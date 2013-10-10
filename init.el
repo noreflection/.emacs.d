@@ -1,20 +1,12 @@
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-;;(require "~/.emacs.d/elpa/git-20130915.932/git.el")
-
-;;;;;; LISP OPTIONS ;;;;;;
-;;SLIME
-(add-to-list 'load-path "~/.emacs.d/slime-2013-01-15")
-(require 'slime)
-(add-hook 'lisp-mode-hook (lambda () (slime-mode t)))
-(add-hook 'inferior-lisp-mode-hook (lambda () (inferior-slime-mode t)))
-;; Optionally, specify the lisp program you are using. Default is "lisp"
-(setq inferior-lisp-program "CLisp") 
-
-;;;
-;; Scheme details
-;;;
-;;; Always do syntax highlighting
+;;(require "~/.emacs.d/elpways do syntax highlighting
 (global-font-lock-mode 1)
+
+;;YaSnippet
+(add-to-list 'load-path "~/.emacs.d/elpa/yasnippet-20130907.1855/")
+(require 'yasnippet)
+(yas-global-mode 1)
+
 
 ;;; Also highlight parens
 (setq show-paren-delay 0
